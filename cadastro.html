@@ -58,24 +58,181 @@
 
       <!-- Heading Row -->
       
-        <form>
+        <form class="form-horizontal">
+          <fieldset>
+
+          <!-- Form Name -->
+          <legend>Cadastro de Clientes</legend>
+          <div style="background-color: #4ED4E8"></div>
+          <!-- Text input-->
           <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <label class="col-md-4 control-label" for="identificacao">E-mail</label>  
+            <div class="col-md-5">
+            <input id="identificacao" name="identificacao" type="text" placeholder="Email" class="form-control input-md" required="">
+              
+            </div>
           </div>
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="identificacao">Confirme Seu E-mail</label>  
+            <div class="col-md-5">
+            <input id="identificacao" name="identificacao" type="text" placeholder="Email" class="form-control input-md" required="">
+              
+            </div>
+          </div>
+
+          <!-- Text input-->
           <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <label class="col-md-4 control-label" for="nome">Nome</label>  
+            <div class="col-md-5">
+            <input id="nome" name="nome" type="text" placeholder="Entre com o Nome" class="form-control input-md" required="">
+              
+            </div>
           </div>
-          <div class="form-check">
-            <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
-              Check me out
-            </label>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="cpf">CPF</label>  
+            <div class="col-md-5">
+            <input id="cpf" name="cpf" type="text" placeholder="Numero do CPF" class="form-control input-md">
+              
+            </div>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="datanascimento">Data de Nascimento</label>  
+            <div class="col-md-4">
+            <input id="datanascimento" name="datanascimento" type="text" placeholder="dd/mm/yyyy" class="form-control input-md">
+              
+            </div>
+          </div>
+
+          <!-- Select Basic -->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="sexo">Sexo</label>
+            <div class="col-md-4">
+              <select id="sexo" name="sexo" class="form-control">
+                <option value="F">Feminino</option>
+                <option value="M">Masculino</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="cep">CEP</label>  
+            <div class="col-md-4">
+            <input id="cep" name="cep" type="text" placeholder="99999-999" class="form-control input-md">
+              
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="endereco">Endereco</label>  
+            <div class="col-md-8">
+            <input id="endereco" name="endereco" type="text" placeholder="Rua Numero Complemento" class="form-control input-md">
+              
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="bairro">Bairro</label>  
+            <div class="col-md-5">
+            <input id="bairro" name="bairro" type="text" placeholder="Bairro" class="form-control input-md">
+              
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="cidade">Cidade</label>  
+            <div class="col-md-6">
+            <input id="cidade" name="cidade" type="text" placeholder="Cidade" class="form-control input-md">
+              
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="uf">UF</label>  
+            <div class="col-md-2">
+            <input id="uf" name="uf" type="text" placeholder="Estado" class="form-control input-md">
+              
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="telefone">Telefone</label>  
+            <div class="col-md-4">
+            <input id="telefone" name="telefone" type="text" placeholder="(99)999999999" class="form-control input-md">
+              
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="celular">Celular</label>  
+            <div class="col-md-4">
+            <input id="celular" name="celular" type="text" placeholder="(99)999999999" class="form-control input-md">
+              
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="notificacoes">Receber Notificacoes</label>  
+            <div class="col-md-1">
+            <label class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input">
+            <span class="custom-control-indicator"></span>
+          </label>
+              
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="ofertas">Receber Ofertas</label>  
+            <div class="col-md-1">
+            <label class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input">
+            <span class="custom-control-indicator"></span>
+          </label>
+            </div>
+          </div>
+
+          <!-- Password input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="senha">Senha</label>
+            <div class="col-md-4">
+              <input id="senha" name="senha" type="password" placeholder="Entre com a Senha" class="form-control input-md" required="">
+              
+            </div>
+          </div>
+
+          <!-- Password input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="confirmasenha">Confirma Senha</label>
+            <div class="col-md-4">
+              <input id="confirmasenha" name="confirmasenha" type="password" placeholder="Confirme a Senha" class="form-control input-md">
+              
+            </div>
+          </div>
+
+          <!-- Button -->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="singlebutton"></label>
+            <div class="col-md-4">
+              <button id="singlebutton" name="singlebutton" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+
+          </fieldset>
+          </form>
+
       
       <!-- /.row -->
 

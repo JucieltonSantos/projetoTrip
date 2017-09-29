@@ -25,6 +25,44 @@ body {
 .btn-viajar{
 	background-color: #da910a!important;
 }
+.tithotel{
+	font-size: 20px;
+	text-align: center;
+	margin-left: 0px;
+	font-weight: bold;
+}
+.text10{
+	text-align: center;
+}
+.star{
+	color:#e8d217; 
+}
+.preco{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.preco2{
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color:#ec0101;
+}
+.titpensado{
+	color: #2ace50;
+}
+.musica{
+	background-image: url("figura13.jpg")!important;
+	color: #ffffff;
+}
+.lazer{
+	background-image: url("figura14.jpg")!important;
+	color: #ffffff;
+}
+.gastronomia{
+	background-color: url("figura15.jpg")!important;
+	color: #ffffff;
+}
 
 @media (min-width: 992px) {
     body {
